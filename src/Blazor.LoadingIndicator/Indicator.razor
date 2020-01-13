@@ -9,7 +9,7 @@ else if (CurrentTask != null && _loadingFragment != null)
 {
     @_loadingFragment
 }
-<div style="@(((CurrentTask?.Exception != null && ErrorContent == null) ||
+<div class="full-height" style="@(((CurrentTask?.Exception != null && ErrorContent == null) ||
               CurrentTask == null) ? string.Empty : CONTENT_HIDDEN)">
     @ChildContent
 </div>
